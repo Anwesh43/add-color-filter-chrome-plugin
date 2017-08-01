@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "filterify-image",
+  "description": "this image adds a color filter to your image",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "cf_icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
